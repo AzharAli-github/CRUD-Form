@@ -1,0 +1,35 @@
+.card {
+    padding: 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px 0px;
+    height: 330px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.CardsContainerList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    position: absolute;
+    width: 100%;
+}
+.secondImg{
+    position: relative;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    left: 87px;
+    bottom: 9px;
+    border: 2px double black;
+}
+.card button{
+    font-size: 17px;
+    border: none;
+    padding: 7px 12px;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 2px;
+}
